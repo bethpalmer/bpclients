@@ -28,13 +28,19 @@ a.active {
 }
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
 /*  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-family: 'Kalam', cursive, Verdana, Geneva, sans-serif;
   text-transform: uppercase;
+  font-weight: 700;
+  color: #233140
+}
+
+h3 {
+  font-family: 'Kalam', cursive, Verdana, Geneva, sans-serif;
+/*  text-transform: uppercase;*/
   font-weight: 700;
   color: #233140
 }
@@ -96,7 +102,7 @@ img.flower {
 
 header {
   text-align: center;
-  background: url(../img/background/sun.jpg);
+  background: url(../img/background/sun1.jpg);
   /*background: url(../img/background/pencils.jpg);*/
   background-repeat: none;
   background-size: cover;
@@ -115,18 +121,26 @@ header img {
 }
 
 header .intro-text {
-  margin-top: 20vh;
+  margin-top: 15vh;
 }
 header .intro-text .name {
   display: block;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 3.25em;
+  margin: 0;
+}
+header .tag {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5em;
   margin: 0;
 }
 header .intro-text .skills {
   font-size: 1.25em;
-  font-weight: 300;
+  font-weight: 400;
+  padding-top: 50px;
 /*  margin: 25px 0;*/
 }
 /*h2.name {
@@ -140,8 +154,11 @@ header .intro-text .skills {
   header .intro-text .name {
     font-size: 3.75em;
   }
+  header .tag {
+    font-size: 2.5em;
+  }
   header .intro-text .skills {
-    font-size: 1.75em;
+    font-size: 1.5em;
  /*   margin: 25px 0;*/
   }
 /*  h2.name {
@@ -156,6 +173,12 @@ img.profile {
 /*  float: none;
   display: inline-block;
   vertical-align: middle;*/
+}
+
+@media (min-width: 768px) {
+  img.profile {
+    margin-top: 42px;
+  }
 }
 
 .navbar-custom {
@@ -243,7 +266,7 @@ section.about {
   background-repeat: none;
   background-size: cover;
   color: #233140;
-  height: 100vh;
+/*  height: 100vh;*/
 }
 section.work {
   background: url(../img/background/logs.jpg);
@@ -449,7 +472,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
+  background-color: #EF5756;
   border-color: #11866f;
 }
 .btn-success:active,
@@ -603,6 +626,7 @@ div#maincontent {
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
+  color: #045943;
 }
 @media (min-width: 992px) {
   .service-box {
