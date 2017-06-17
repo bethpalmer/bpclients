@@ -211,12 +211,20 @@ section h2 {
   font-size: 3em;
 }
 section.about {
-  background: url(../img/background/green.jpg);
+  background: url(../img/background/green-small.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: #233140;
 /*  height: 100vh;*/
 }
+@media (min-width: 992px) {
+  section.about {
+    background: url(../img/background/green.jpg);
+  }
+  
+}
+  
+
 section.work {
   background: url(../img/background/logs.jpg);
   background-repeat: no-repeat;
