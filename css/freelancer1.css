@@ -602,6 +602,7 @@ ul.work-detail {
 
 ul.illustration-detail {
   list-style-type: none;
+  padding-left: 0;
   text-align: center;
   padding-bottom: 2em;
 }
