@@ -656,3 +656,279 @@ img.flower-quote {
     font-size: 1.5em;
   }
 }
+
+#beetle-poem,
+#bee-poem,
+#bun-poem,
+#koala-poem,
+#penguin-poem,
+#spider-poem,
+#sun-poem,
+#tree-poem,
+#worm-poem,
+#xmas-robin,
+#xmas-reindeer,
+#xmas-angel,
+#xmas-snowman,
+#xmas-tree,
+#xmas-heart,
+#gen-bomb,
+#gen-box,
+#gen-annivers,
+#gen-boom,
+#gen-home,
+#gen-bird,
+#gen-unicorn,
+#gen-wed,
+#gen-butterfly,
+#gen-dad,
+#gen-congrats,
+#gen-love,
+#bri-heart {
+  width: 305px;
+  height: 305px;
+}
+
+#beetle-poem {
+  background: url("../img/illus-sprite-poem.jpg") -435px 0;
+}
+#bee-poem {
+  background: url("../img/illus-sprite-poem.jpg") -5px 0;
+}
+#bun-poem {
+  background: url("../img/illus-sprite-poem.jpg") -855px 0;
+}
+#koala-poem {
+  background: url("../img/illus-sprite-poem.jpg") -3400px 0;
+}
+#penguin-poem {
+  background: url("../img/illus-sprite-poem.jpg") -1280px 0;
+}
+#spider-poem {
+  background: url("../img/illus-sprite-poem.jpg") -1700px 0;
+}
+#sun-poem {
+  background: url("../img/illus-sprite-poem.jpg") -2560px 0;
+}
+#tree-poem {
+  background: url("../img/illus-sprite-poem.jpg") -2980px 0;
+}
+#worm-poem {
+  background: url("../img/illus-sprite-poem.jpg") -2140px 0;
+}
+
+
+
+#gen-bomb {
+  background: url("../img/illus-sprite-general.jpg") -4254px 0;
+}
+#gen-box {
+  background: url("../img/illus-sprite-general.jpg") -3828px 0;
+}
+#gen-annivers {
+  background: url("../img/illus-sprite-general.jpg") -430px 0;
+}
+#gen-boom {
+  background: url("../img/illus-sprite-general.jpg") -4678px 0;
+}
+#gen-home {
+  background: url("../img/illus-sprite-general.jpg") -2553px 0;
+}
+#gen-bird {
+  background: url("../img/illus-sprite-general.jpg") -2125px 0;
+}
+#gen-unicorn {
+  background: url("../img/illus-sprite-general.jpg") -3402px 0;
+}
+#gen-wed {
+  background: url("../img/illus-sprite-general.jpg") 0 0;
+}
+#gen-butterfly {
+  background: url("../img/illus-sprite-general.jpg") -852px 0;
+}
+#gen-dad {
+  background: url("../img/illus-sprite-general.jpg") -1703px 0;
+}
+#gen-congrats {
+  background: url("../img/illus-sprite-general.jpg") -1276px 0;
+}
+#gen-love {
+  background: url("../img/illus-sprite-general.jpg") -2977px 0;
+}
+
+
+
+#xmas-robin {
+  background: url("../img/illus-sprite-xmas.jpg") -1270px 0;
+}
+#xmas-reindeer {
+  background: url("../img/illus-sprite-xmas.jpg") -840px 0;
+}
+#xmas-angel {
+  background: url("../img/illus-sprite-xmas.jpg") -415px 0;
+}
+#xmas-snowman {
+  background: url("../img/illus-sprite-xmas.jpg") -1700px 0;
+}
+#xmas-tree {
+  background: url("../img/illus-sprite-xmas.jpg") 0 0;
+}
+#xmas-heart {
+  background: url("../img/illus-sprite-xmas.jpg") -2125px 0;
+}
+
+#bri-montage {
+  width: 320px;
+  height: 320px;
+  background: url("../img/illus-sprite-brighton.jpg") -1745px 0;
+}
+@media (min-width: 768px) {
+  #bri-montage {
+    width: 610px;
+    height: 610px;
+    background: url("../img/illus-sprite-brighton.jpg") 0 0;
+  }
+}
+
+#bri-heart {
+  background: url("../img/illus-sprite-brighton.jpg") -1280px 0;
+}
+#bri-rainbow {
+  width: 427px;
+  height: 305px;
+  background: url("../img/illus-sprite-brighton.jpg") -710px 0;
+}
+
+#main-poem,
+#main-bomb,
+#main-brighton,
+#main-robin {
+  width: 260px;
+  height: 260px;
+}
+
+#main-poem {
+  background: url("../img/illus-sprite-260px.jpg") 0 0;
+}
+#main-bomb {
+  background: url("../img/illus-sprite-260px.jpg") -852px 0;
+}
+#main-brighton {
+  background: url("../img/illus-sprite-260px.jpg") -428px 0;
+}
+#main-robin {
+  background: url("../img/illus-sprite-260px.jpg") -1277px 0;
+}
+
+/* NOT WORKING - DON't KNOW WHY?! */
+/*@media (min-width: 1200px) {
+  #main-poem,
+  #main-bomb,
+  #main-brighton,
+  #main-robin {
+    width: 260px;
+    height: 260px;
+  }
+  #main-poem {
+    background: url("../img/illus-sprite-260px.jpg") 0 0;
+  }
+  #main-bomb {
+    background: url("../img/illus-sprite-260px.jpg") -852px 0;
+  }
+  #main-brighton {
+    background: url("../img/illus-sprite-260px.jpg") -428px 0;
+  }
+  #main-robin {
+    background: url("../img/illus-sprite-260px.jpg") -1277px 0;
+  }
+}*/
+
+@media (min-width: 768px) {
+  #main-poem,
+  #main-bomb,
+  #main-brighton,
+  #main-robin {
+    width: 150px;
+    height: 150px;
+  }
+  #main-poem {
+    background: url("../img/illus-sprite-150px.jpg") 0 0;
+  }
+  #main-bomb {
+    background: url("../img/illus-sprite-150px.jpg") -852px 0;
+  }
+  #main-brighton {
+    background: url("../img/illus-sprite-150px.jpg") -428px 0;
+  }
+  #main-robin {
+    background: url("../img/illus-sprite-150px.jpg") -1277px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #main-poem,
+  #main-bomb,
+  #main-brighton,
+  #main-robin {
+    width: 200px;
+    height: 200px;
+  }
+   #main-poem {
+    background: url("../img/illus-sprite-200px.jpg") 0 0;
+  }
+  #main-bomb {
+    background: url("../img/illus-sprite-200px.jpg") -852px 0;
+  }
+  #main-brighton {
+    background: url("../img/illus-sprite-200px.jpg") -428px 0;
+  }
+  #main-robin {
+    background: url("../img/illus-sprite-200px.jpg") -1277px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  #main-poem,
+  #main-bomb,
+  #main-brighton,
+  #main-robin {
+    width: 200px;
+    height: 200px;
+  }
+  #main-poem {
+    background: url("../img/illus-sprite-200px.jpg") 0 0;
+  }
+  #main-bomb {
+    background: url("../img/illus-sprite-200px.jpg") -852px 0;
+  }
+  #main-brighton {
+    background: url("../img/illus-sprite-200px.jpg") -428px 0;
+  }
+  #main-robin {
+    background: url("../img/illus-sprite-200px.jpg") -1277px 0;
+  }
+}
+
+@media (max-width: 475px) {
+  #main-poem,
+  #main-bomb,
+  #main-brighton,
+  #main-robin {
+    width: 150px;
+    height: 150px;
+  }
+  #main-poem {
+    background: url("../img/illus-sprite-150px.jpg") 0 0;
+  }
+  #main-bomb {
+    background: url("../img/illus-sprite-150px.jpg") -852px 0;
+  }
+  #main-brighton {
+    background: url("../img/illus-sprite-150px.jpg") -428px 0;
+  }
+  #main-robin {
+    background: url("../img/illus-sprite-150px.jpg") -1277px 0;
+  }
+}
+
+
