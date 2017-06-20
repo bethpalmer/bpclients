@@ -932,4 +932,185 @@ img.flower-quote {
   }
 }
 
+@media (min-width: 1200px) {
+  #portf-cv,
+  #portf-techport,
+  #portf-mcuk,
+  #portf-sfaca,
+  #portf-awbri,
+  #portf-essbl {
+    width: 358px;
+    height: 250px;
+  }
+  #portf-cv {
+    background: url("../img/portf-sprite-ui.jpg") -409px -306px;
+  }
+  #portf-techport {
+    background: url("../img/portf-sprite-ui.jpg") -820px -305px;
+  }
+  #portf-mcuk {
+    background: url("../img/portf-sprite-ui.jpg") -1px -306px;
+  }
+  #portf-sfaca {
+    background: url("../img/portf-sprite-ui.jpg") -821px 0;
+  }
+  #portf-essbl {
+    background: url("../img/portf-sprite-ui.jpg") 0 0;
+  }
+  #portf-awbri {
+    background: url("../img/portf-sprite-ui.jpg") -409px 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  #portf-cv,
+  #portf-techport,
+  #portf-mcuk,
+  #portf-sfaca,
+  #portf-awbri,
+  #portf-essbl {
+    width: 291px;
+    height: 203px;
+  }
+  #portf-cv {
+    background: url("../img/portf-sprite-ui.jpg") -407px -906px;
+  }
+  #portf-techport {
+    background: url("../img/portf-sprite-ui.jpg") -817px -907px;
+  }
+  #portf-mcuk {
+    background: url("../img/portf-sprite-ui.jpg") 0 -907px;
+  }
+  #portf-sfaca {
+    background: url("../img/portf-sprite-ui.jpg") -819px -640px;
+  }
+  #portf-essbl {
+    background: url("../img/portf-sprite-ui.jpg") 0 -643px;
+  }
+  #portf-awbri {
+    background: url("../img/portf-sprite-ui.jpg") -408px -635px;
+  }
+}
+
+@media (max-width: 991px) {
+  #portf-cv,
+  #portf-techport,
+  #portf-mcuk,
+  #portf-sfaca,
+  #portf-awbri,
+  #portf-essbl {
+    width: 218px;
+    height: 152px;
+  }
+  #portf-cv {
+    background: url("../img/portf-sprite-ui.jpg") -407px -1465px;
+  }
+  #portf-techport {
+    background: url("../img/portf-sprite-ui.jpg") -817px -1466px;
+  }
+  #portf-mcuk {
+    background: url("../img/portf-sprite-ui.jpg") 0 -1465px;
+  }
+  #portf-sfaca {
+    background: url("../img/portf-sprite-ui.jpg") -818px -1198px;
+  }
+  #portf-essbl {
+    background: url("../img/portf-sprite-ui.jpg") 1px -1200px;
+  }
+  #portf-awbri {
+    background: url("../img/portf-sprite-ui.jpg") -408px -1196px;
+  }
+}
+
+@media (max-width: 767px) {
+  #portf-cv,
+  #portf-techport,
+  #portf-mcuk,
+  #portf-sfaca,
+  #portf-awbri,
+  #portf-essbl {
+    width: 398px;
+    height: 278px;
+  }
+  #portf-cv {
+    background: url("../img/portf-sprite-ui.jpg") -407px -2014px;
+  }
+  #portf-techport {
+    background: url("../img/portf-sprite-ui.jpg") -817px -2013px;
+  }
+  #portf-mcuk {
+    background: url("../img/portf-sprite-ui.jpg") 0 -2014px;
+  }
+  #portf-sfaca {
+    background: url("../img/portf-sprite-ui.jpg") -819px -1707px;
+  }
+  #portf-essbl {
+    background: url("../img/portf-sprite-ui.jpg") 0 -1710px;
+  }
+  #portf-awbri {
+    background: url("../img/portf-sprite-ui.jpg") -408px -1707px;
+  }
+}
+
+@media (min-width: 768px) {
+  #awesomebrighton,
+  #cv,
+  #sfaca,
+  #mcuk,
+  #techportfolio,
+  #essentialbl {
+    width: 700px;
+    height: 300px;
+  }
+  #essentialbl {
+    background: url("../img/portf-sprite-responsive.jpg") 0 0;
+  }
+  #awesomebrighton {
+    background: url("../img/portf-sprite-responsive.jpg") -760px -620px;
+  }
+  #cv {
+    background: url("../img/portf-sprite-responsive.jpg") 0 -310px;
+  }
+  #techportfolio {
+    background: url("../img/portf-sprite-responsive.jpg") 0 -620px;
+  }
+  #sfaca {
+    background: url("../img/portf-sprite-responsive.jpg") -760px -310px;
+  }
+  #mcuk {
+    background: url("../img/portf-sprite-responsive.jpg") -760px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  #awesomebrighton,
+  #cv,
+  #sfaca,
+  #mcuk,
+  #techportfolio,
+  #essentialbl {
+    width: 350px;
+    height: 150px;
+  }
+  #essentialbl {
+    background: url("../img/portf-sprite-responsive.jpg") 0 -930px;
+  }
+  #awesomebrighton {
+    background: url("../img/portf-sprite-responsive.jpg") -760px -1240px;
+  }
+  #cv {
+    background: url("../img/portf-sprite-responsive.jpg") 0 -1090px;
+  }
+  #techportfolio {
+    background: url("../img/portf-sprite-responsive.jpg") 0 -1240px;
+  }
+  #sfaca {
+    background: url("../img/portf-sprite-responsive.jpg") -760px -1090px;
+  }
+  #mcuk {
+    background: url("../img/portf-sprite-responsive.jpg") -760px -930px;
+  }
+}
+
+
 
