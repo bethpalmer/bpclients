@@ -163,7 +163,7 @@ div#maincontent{outline:none;}
 }
 .service-box p{margin-bottom:0;}
 ul.work-detail{list-style-type:none;padding-left:0;text-align:left;}
-ul.illustration-detail{list-style-type:none;text-align:center;padding-bottom:2em;}
+ul.illustration-detail{list-style-type:none;padding-left:0;text-align:center;padding-bottom:2em;}
 ul.work-detail > li{line-height:2em;}
 a.work-link{font-family:'Kalam', cursive, Verdana, Geneva, sans-serif;font-size:1.5em;font-weight:700;text-transform:uppercase;color:white;display:block;text-align:center;padding-top:0.6em;}
 .block{display:block;margin:0 auto;}
@@ -172,4 +172,186 @@ section.quote{padding:15px 0;}
 h3.otd{color:#045943;font-size:1.25em;font-weight:400;}
 img.flower-quote{padding-top:20px;}
 @media (min-width:768px){h3.otd{font-size:1.5em;}
+}
+#beetle-poem,
+#bee-poem,
+#bun-poem,
+#koala-poem,
+#penguin-poem,
+#spider-poem,
+#sun-poem,
+#tree-poem,
+#worm-poem,
+#xmas-robin,
+#xmas-reindeer,
+#xmas-angel,
+#xmas-snowman,
+#xmas-tree,
+#xmas-heart,
+#gen-bomb,
+#gen-box,
+#gen-annivers,
+#gen-boom,
+#gen-home,
+#gen-bird,
+#gen-unicorn,
+#gen-wed,
+#gen-butterfly,
+#gen-dad,
+#gen-congrats,
+#gen-love,
+#bri-heart{width:305px;height:305px;}
+#beetle-poem{background:url("../img/illus-sprite-poem.jpg") -435px 0;}
+#bee-poem{background:url("../img/illus-sprite-poem.jpg") -5px 0;}
+#bun-poem{background:url("../img/illus-sprite-poem.jpg") -855px 0;}
+#koala-poem{background:url("../img/illus-sprite-poem.jpg") -3400px 0;}
+#penguin-poem{background:url("../img/illus-sprite-poem.jpg") -1280px 0;}
+#spider-poem{background:url("../img/illus-sprite-poem.jpg") -1700px 0;}
+#sun-poem{background:url("../img/illus-sprite-poem.jpg") -2560px 0;}
+#tree-poem{background:url("../img/illus-sprite-poem.jpg") -2980px 0;}
+#worm-poem{background:url("../img/illus-sprite-poem.jpg") -2140px 0;}
+#gen-bomb{background:url("../img/illus-sprite-general.jpg") -4254px 0;}
+#gen-box{background:url("../img/illus-sprite-general.jpg") -3828px 0;}
+#gen-annivers{background:url("../img/illus-sprite-general.jpg") -430px 0;}
+#gen-boom{background:url("../img/illus-sprite-general.jpg") -4678px 0;}
+#gen-home{background:url("../img/illus-sprite-general.jpg") -2553px 0;}
+#gen-bird{background:url("../img/illus-sprite-general.jpg") -2125px 0;}
+#gen-unicorn{background:url("../img/illus-sprite-general.jpg") -3402px 0;}
+#gen-wed{background:url("../img/illus-sprite-general.jpg") 0 0;}
+#gen-butterfly{background:url("../img/illus-sprite-general.jpg") -852px 0;}
+#gen-dad{background:url("../img/illus-sprite-general.jpg") -1703px 0;}
+#gen-congrats{background:url("../img/illus-sprite-general.jpg") -1276px 0;}
+#gen-love{background:url("../img/illus-sprite-general.jpg") -2977px 0;}
+#xmas-robin{background:url("../img/illus-sprite-xmas.jpg") -1270px 0;}
+#xmas-reindeer{background:url("../img/illus-sprite-xmas.jpg") -840px 0;}
+#xmas-angel{background:url("../img/illus-sprite-xmas.jpg") -415px 0;}
+#xmas-snowman{background:url("../img/illus-sprite-xmas.jpg") -1700px 0;}
+#xmas-tree{background:url("../img/illus-sprite-xmas.jpg") 0 0;}
+#xmas-heart{background:url("../img/illus-sprite-xmas.jpg") -2125px 0;}
+#bri-montage{width:320px;height:320px;background:url("../img/illus-sprite-brighton.jpg") -1745px 0;}
+@media (min-width:768px){#bri-montage{width:610px;height:610px;background:url("../img/illus-sprite-brighton.jpg") 0 0;}
+}
+#bri-heart{background:url("../img/illus-sprite-brighton.jpg") -1280px 0;}
+#bri-rainbow{width:427px;height:305px;background:url("../img/illus-sprite-brighton.jpg") -710px 0;}
+#main-poem,
+#main-bomb,
+#main-brighton,
+#main-robin{width:260px;height:260px;}
+#main-poem{background:url("../img/illus-sprite-260px.jpg") 0 0;}
+#main-bomb{background:url("../img/illus-sprite-260px.jpg") -852px 0;}
+#main-brighton{background:url("../img/illus-sprite-260px.jpg") -428px 0;}
+#main-robin{background:url("../img/illus-sprite-260px.jpg") -1277px 0;}
+@media (min-width:768px){#main-poem,
+#main-bomb,
+#main-brighton,
+#main-robin{width:150px;height:150px;}
+#main-poem{background:url("../img/illus-sprite-150px.jpg") 0 0;}
+#main-bomb{background:url("../img/illus-sprite-150px.jpg") -852px 0;}
+#main-brighton{background:url("../img/illus-sprite-150px.jpg") -428px 0;}
+#main-robin{background:url("../img/illus-sprite-150px.jpg") -1277px 0;}
+}
+@media (min-width:992px){#main-poem,
+#main-bomb,
+#main-brighton,
+#main-robin{width:200px;height:200px;}
+#main-poem{background:url("../img/illus-sprite-200px.jpg") 0 0;}
+#main-bomb{background:url("../img/illus-sprite-200px.jpg") -852px 0;}
+#main-brighton{background:url("../img/illus-sprite-200px.jpg") -428px 0;}
+#main-robin{background:url("../img/illus-sprite-200px.jpg") -1277px 0;}
+}
+@media (max-width:600px){#main-poem,
+#main-bomb,
+#main-brighton,
+#main-robin{width:200px;height:200px;}
+#main-poem{background:url("../img/illus-sprite-200px.jpg") 0 0;}
+#main-bomb{background:url("../img/illus-sprite-200px.jpg") -852px 0;}
+#main-brighton{background:url("../img/illus-sprite-200px.jpg") -428px 0;}
+#main-robin{background:url("../img/illus-sprite-200px.jpg") -1277px 0;}
+}
+@media (max-width:475px){#main-poem,
+#main-bomb,
+#main-brighton,
+#main-robin{width:150px;height:150px;}
+#main-poem{background:url("../img/illus-sprite-150px.jpg") 0 0;}
+#main-bomb{background:url("../img/illus-sprite-150px.jpg") -852px 0;}
+#main-brighton{background:url("../img/illus-sprite-150px.jpg") -428px 0;}
+#main-robin{background:url("../img/illus-sprite-150px.jpg") -1277px 0;}
+}
+@media (min-width:1200px){#portf-cv,
+#portf-techport,
+#portf-mcuk,
+#portf-sfaca,
+#portf-awbri,
+#portf-essbl{width:358px;height:250px;}
+#portf-cv{background:url("../img/portf-sprite-ui.jpg") -409px -306px;}
+#portf-techport{background:url("../img/portf-sprite-ui.jpg") -820px -305px;}
+#portf-mcuk{background:url("../img/portf-sprite-ui.jpg") -1px -306px;}
+#portf-sfaca{background:url("../img/portf-sprite-ui.jpg") -821px 0;}
+#portf-essbl{background:url("../img/portf-sprite-ui.jpg") 0 0;}
+#portf-awbri{background:url("../img/portf-sprite-ui.jpg") -409px 0;}
+}
+@media (max-width:1199px){#portf-cv,
+#portf-techport,
+#portf-mcuk,
+#portf-sfaca,
+#portf-awbri,
+#portf-essbl{width:291px;height:203px;}
+#portf-cv{background:url("../img/portf-sprite-ui.jpg") -407px -906px;}
+#portf-techport{background:url("../img/portf-sprite-ui.jpg") -817px -907px;}
+#portf-mcuk{background:url("../img/portf-sprite-ui.jpg") 0 -907px;}
+#portf-sfaca{background:url("../img/portf-sprite-ui.jpg") -819px -640px;}
+#portf-essbl{background:url("../img/portf-sprite-ui.jpg") 0 -643px;}
+#portf-awbri{background:url("../img/portf-sprite-ui.jpg") -408px -635px;}
+}
+@media (max-width:991px){#portf-cv,
+#portf-techport,
+#portf-mcuk,
+#portf-sfaca,
+#portf-awbri,
+#portf-essbl{width:218px;height:152px;}
+#portf-cv{background:url("../img/portf-sprite-ui.jpg") -407px -1465px;}
+#portf-techport{background:url("../img/portf-sprite-ui.jpg") -817px -1466px;}
+#portf-mcuk{background:url("../img/portf-sprite-ui.jpg") 0 -1465px;}
+#portf-sfaca{background:url("../img/portf-sprite-ui.jpg") -818px -1198px;}
+#portf-essbl{background:url("../img/portf-sprite-ui.jpg") 1px -1200px;}
+#portf-awbri{background:url("../img/portf-sprite-ui.jpg") -408px -1196px;}
+}
+@media (max-width:767px){#portf-cv,
+#portf-techport,
+#portf-mcuk,
+#portf-sfaca,
+#portf-awbri,
+#portf-essbl{width:398px;height:278px;}
+#portf-cv{background:url("../img/portf-sprite-ui.jpg") -407px -2014px;}
+#portf-techport{background:url("../img/portf-sprite-ui.jpg") -817px -2013px;}
+#portf-mcuk{background:url("../img/portf-sprite-ui.jpg") 0 -2014px;}
+#portf-sfaca{background:url("../img/portf-sprite-ui.jpg") -819px -1707px;}
+#portf-essbl{background:url("../img/portf-sprite-ui.jpg") 0 -1710px;}
+#portf-awbri{background:url("../img/portf-sprite-ui.jpg") -408px -1707px;}
+}
+@media (min-width:768px){#awesomebrighton,
+#cv,
+#sfaca,
+#mcuk,
+#techportfolio,
+#essentialbl{width:700px;height:300px;}
+#essentialbl{background:url("../img/portf-sprite-responsive.jpg") 0 0;}
+#awesomebrighton{background:url("../img/portf-sprite-responsive.jpg") -760px -620px;}
+#cv{background:url("../img/portf-sprite-responsive.jpg") 0 -310px;}
+#techportfolio{background:url("../img/portf-sprite-responsive.jpg") 0 -620px;}
+#sfaca{background:url("../img/portf-sprite-responsive.jpg") -760px -310px;}
+#mcuk{background:url("../img/portf-sprite-responsive.jpg") -760px 0;}
+}
+@media (max-width:767px){#awesomebrighton,
+#cv,
+#sfaca,
+#mcuk,
+#techportfolio,
+#essentialbl{width:350px;height:150px;}
+#essentialbl{background:url("../img/portf-sprite-responsive.jpg") 0 -930px;}
+#awesomebrighton{background:url("../img/portf-sprite-responsive.jpg") -760px -1240px;}
+#cv{background:url("../img/portf-sprite-responsive.jpg") 0 -1090px;}
+#techportfolio{background:url("../img/portf-sprite-responsive.jpg") 0 -1240px;}
+#sfaca{background:url("../img/portf-sprite-responsive.jpg") -760px -1090px;}
+#mcuk{background:url("../img/portf-sprite-responsive.jpg") -760px -930px;}
 }
