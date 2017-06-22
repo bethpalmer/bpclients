@@ -139,6 +139,10 @@ p {
   margin: 0 0 10px;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-right {
   text-align: right;
 }
@@ -508,13 +512,13 @@ ul {
 }
 
 body {
-  font-family: 'Kalam', cursive, Verdana, Geneva, sans-serif;
+  font-family: 'Kalam',cursive,Verdana,Geneva,sans-serif;
   overflow-x: hidden;
 }
 
 p {
   font-size: 20px;
-  font-family: 'Kalam', cursive, Verdana, Geneva, sans-serif;
+  font-family: 'Kalam',cursive,Verdana,Geneva,sans-serif;
   color: #233140;
 }
 
@@ -524,14 +528,14 @@ a {
 
 h1,
 h2 {
-  font-family: 'Kalam', cursive, Verdana, Geneva, sans-serif;
+  font-family: 'Kalam',cursive,Verdana,Geneva,sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #233140;
 }
 
 h3 {
-  font-family: 'Kalam', cursive, Verdana, Geneva, sans-serif;
+  font-family: 'Kalam',cursive,Verdana,Geneva,sans-serif;
   font-weight: 700;
   color: #233140;
 }
@@ -557,7 +561,7 @@ header {
 header .container {
   padding-top: 50px;
   padding-bottom: 50px;
-  font-family: 'Kalam', cursive, Verdana, Geneva, sans-serif;
+  font-family: 'Kalam',cursive,Verdana,Geneva,sans-serif;
 }
 
 header img {
@@ -613,6 +617,7 @@ img.profile {
   border: solid 4px #1F160C;
   border-radius: 150px;
   width: 100%;
+  margin-top: 20px;
 }
 
 @media (min-width:768px) {
@@ -623,7 +628,7 @@ img.profile {
 
 .navbar-custom {
   background: url(../img/background/sky.jpg);
-  font-family: 'Kalam', cursive, Verdana, Geneva, sans-serif;
+  font-family: 'Kalam',cursive,Verdana,Geneva,sans-serif;
   text-transform: uppercase;
   font-weight: 300;
   border: none;
@@ -632,10 +637,12 @@ img.profile {
 
 .navbar-custom .navbar-brand {
   color: white;
+  text-shadow: 1px 1px 2px #233140;
 }
 
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
+  text-shadow: 1px 1px 2px #233140;
 }
 
 .navbar-custom .navbar-nav li a {
@@ -698,7 +705,7 @@ section.about {
   padding: 6px;
   position: absolute;
   top: -40px;
-  left: 0px;
+  left: 0;
   color: white;
   border-right: 1px solid white;
   border-bottom: 1px solid white;
@@ -717,7 +724,7 @@ div#maincontent {
 }
 
 .btn-style {
-  font-family: 'Kalam', cursive, Verdana, Geneva, sans-serif;
+  font-family: 'Kalam',cursive,Verdana,Geneva,sans-serif;
   width: 160px;
   border-radius: 20px;
   border: none;

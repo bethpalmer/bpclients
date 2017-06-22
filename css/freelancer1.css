@@ -123,6 +123,7 @@ img.profile {
   border: solid 4px #1F160C;
   border-radius: 150px;
   width: 100%;
+  margin-top: 20px;
 }
 
 @media (min-width: 768px) {
@@ -141,21 +142,25 @@ img.profile {
 }
 .navbar-custom .navbar-brand {
   color: white;
+  text-shadow: 1px 1px 2px #233140;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #233140;
+  text-shadow: 1px 1px 2px white;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
+  text-shadow: 1px 1px 2px #233140;
 }
 .navbar-custom .navbar-nav li a {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #233140;
+  text-shadow: 1px 1px 2px white;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -658,6 +663,8 @@ img.flower-quote {
   }
 }
 
+/******** ILLUSTRAIONS MODALS *********/
+
 #beetle-poem,
 #bee-poem,
 #bun-poem,
@@ -686,12 +693,12 @@ img.flower-quote {
 #gen-congrats,
 #gen-love,
 #bri-heart {
-  width: 305px;
-  height: 305px;
+  width: 270px;
+  height: 270px;
 }
 
 #beetle-poem {
-  background: url("../img/illus-sprite-poem.jpg") -435px 0;
+  background: url("../img/illus-sprite-poem.jpg") -427px 0;
 }
 #bee-poem {
   background: url("../img/illus-sprite-poem.jpg") -5px 0;
@@ -700,16 +707,16 @@ img.flower-quote {
   background: url("../img/illus-sprite-poem.jpg") -855px 0;
 }
 #koala-poem {
-  background: url("../img/illus-sprite-poem.jpg") -3400px 0;
+  background: url("../img/illus-sprite-poem.jpg") -3405px 0;
 }
 #penguin-poem {
   background: url("../img/illus-sprite-poem.jpg") -1280px 0;
 }
 #spider-poem {
-  background: url("../img/illus-sprite-poem.jpg") -1700px 0;
+  background: url("../img/illus-sprite-poem.jpg") -1705px 0;
 }
 #sun-poem {
-  background: url("../img/illus-sprite-poem.jpg") -2560px 0;
+  background: url("../img/illus-sprite-poem.jpg") -2555px 0;
 }
 #tree-poem {
   background: url("../img/illus-sprite-poem.jpg") -2980px 0;
@@ -760,13 +767,13 @@ img.flower-quote {
 
 
 #xmas-robin {
-  background: url("../img/illus-sprite-xmas.jpg") -1270px 0;
+  background: url("../img/illus-sprite-xmas.jpg") -1277px 0;
 }
 #xmas-reindeer {
-  background: url("../img/illus-sprite-xmas.jpg") -840px 0;
+  background: url("../img/illus-sprite-xmas.jpg") -850px 0;
 }
 #xmas-angel {
-  background: url("../img/illus-sprite-xmas.jpg") -415px 0;
+  background: url("../img/illus-sprite-xmas.jpg") -425px 0;
 }
 #xmas-snowman {
   background: url("../img/illus-sprite-xmas.jpg") -1700px 0;
@@ -775,12 +782,12 @@ img.flower-quote {
   background: url("../img/illus-sprite-xmas.jpg") 0 0;
 }
 #xmas-heart {
-  background: url("../img/illus-sprite-xmas.jpg") -2125px 0;
+  background: url("../img/illus-sprite-xmas.jpg") -2135px 0;
 }
 
 #bri-montage {
-  width: 320px;
-  height: 320px;
+  width: 270px;
+  height: 270px;
   background: url("../img/illus-sprite-brighton.jpg") -1745px 0;
 }
 @media (min-width: 768px) {
@@ -795,10 +802,12 @@ img.flower-quote {
   background: url("../img/illus-sprite-brighton.jpg") -1280px 0;
 }
 #bri-rainbow {
-  width: 427px;
-  height: 305px;
+  width: 270px;
+  height: 180px;
   background: url("../img/illus-sprite-brighton.jpg") -710px 0;
 }
+
+/******* UI FOR ILLUSTRATIONS *******/
 
 #main-poem,
 #main-bomb,
@@ -849,8 +858,8 @@ img.flower-quote {
   #main-bomb,
   #main-brighton,
   #main-robin {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
   }
   #main-poem {
     background: url("../img/illus-sprite-150px.jpg") 0 0;
@@ -915,8 +924,8 @@ img.flower-quote {
   #main-bomb,
   #main-brighton,
   #main-robin {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
   }
   #main-poem {
     background: url("../img/illus-sprite-150px.jpg") 0 0;
@@ -931,6 +940,8 @@ img.flower-quote {
     background: url("../img/illus-sprite-150px.jpg") -1277px 0;
   }
 }
+
+/********* UI FOR PORTFOLIO ITEMS **********/
 
 @media (min-width: 1200px) {
   #portf-cv,
@@ -1029,28 +1040,30 @@ img.flower-quote {
   #portf-sfaca,
   #portf-awbri,
   #portf-essbl {
-    width: 398px;
-    height: 278px;
+    width: 291px;
+    height: 203px;
   }
   #portf-cv {
-    background: url("../img/portf-sprite-ui.jpg") -407px -2014px;
+    background: url("../img/portf-sprite-ui.jpg") -407px -906px;
   }
   #portf-techport {
-    background: url("../img/portf-sprite-ui.jpg") -817px -2013px;
+    background: url("../img/portf-sprite-ui.jpg") -817px -907px;
   }
   #portf-mcuk {
-    background: url("../img/portf-sprite-ui.jpg") 0 -2014px;
+    background: url("../img/portf-sprite-ui.jpg") 0 -907px;
   }
   #portf-sfaca {
-    background: url("../img/portf-sprite-ui.jpg") -819px -1707px;
+    background: url("../img/portf-sprite-ui.jpg") -819px -640px;
   }
   #portf-essbl {
-    background: url("../img/portf-sprite-ui.jpg") 0 -1710px;
+    background: url("../img/portf-sprite-ui.jpg") 0 -643px;
   }
   #portf-awbri {
-    background: url("../img/portf-sprite-ui.jpg") -408px -1707px;
+    background: url("../img/portf-sprite-ui.jpg") -408px -635px;
   }
 }
+
+/********* PORTFOLIO MODALS ************/
 
 @media (min-width: 768px) {
   #awesomebrighton,
@@ -1099,7 +1112,7 @@ img.flower-quote {
     background: url("../img/portf-sprite-responsive.jpg") -760px -1240px;
   }
   #cv {
-    background: url("../img/portf-sprite-responsive.jpg") 0 -1090px;
+    background: url("../img/portf-sprite-responsive.jpg") -7px -1090px;
   }
   #techportfolio {
     background: url("../img/portf-sprite-responsive.jpg") 0 -1240px;
@@ -1108,7 +1121,7 @@ img.flower-quote {
     background: url("../img/portf-sprite-responsive.jpg") -760px -1090px;
   }
   #mcuk {
-    background: url("../img/portf-sprite-responsive.jpg") -760px -930px;
+    background: url("../img/portf-sprite-responsive.jpg") -757px -930px;
   }
 }
 
