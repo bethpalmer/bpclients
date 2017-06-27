@@ -1,0 +1,1 @@
+$("#otd").append('QUOTE OTD : "Dreams and Dedication are a Powerful Combination." <em>William Longgood</em>');
