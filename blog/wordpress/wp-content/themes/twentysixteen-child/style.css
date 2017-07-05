@@ -1,0 +1,145 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://example.com/twenty-sixteen-child/
+ Description:  Twenty Sixteen Child Theme
+ Author:       Beth Palmer
+ Author URI:   http://www.bethpalmer.co.uk
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+ Text Domain:  twenty-sixteen-child
+*/
+
+body,
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title,
+.entry-title,
+.menu-item,
+.main-navigation,
+.site-description {
+	font-family: 'Kalam', cursive;
+}
+
+.widget .widget-title {
+	font-family: 'Kalam', cursive;
+}
+
+h1,
+h2 {
+	font-weight: 700;
+}
+h3,
+h4 {
+	font-weight: 400;
+}
+h5,
+h6 {
+	font-weight: 300;
+}
+a {
+	color: #045943;
+	text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #233140;
+	text-decoration: underline;
+}
+
+.site {
+	margin: 0;
+}
+.site-header {
+	background: url(../../uploads/2017/07/sky-1.jpg);
+	background-size: cover;
+	padding: 0 3.5455%;
+	box-shadow: 0.5px 0.5px 2px #233140;
+}
+.site-branding .site-title a,
+.main-navigation a,
+.site-description {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-shadow: -1px -1px 10px #233140;
+}
+
+.site-branding .site-title a:hover,
+.site-branding .site-title a:focus,
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
+	color: #233140;
+  	text-shadow: 1px 1px 2px white;
+  	text-decoration: none;
+}
+.site-branding .site-title a {
+	font-size: 40px;
+}
+.site-branding {
+	margin-top: 1.4em;
+	margin-bottom: 0;
+}
+.site-description {
+	font-size: 20px;
+	margin: 8px;
+}
+.site-content {
+	margin-top: 1px;
+	padding-top: 25px;
+	background: url(../../uploads/2017/07/sun1.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.post {
+	background: white;
+	padding: 0 10px 10px 10px;
+}
+
+.entry-title a {
+	color: #045943;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.entry-title a:hover,
+.entry-title a:focus {
+	color: #233140;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 44.375em) {
+	body:not(.custom-background-image):before,
+	body:not(.custom-background-image):after {
+		height: 0;
+	}
+}
+
+.widget {
+	border-top: 2px solid #045943;
+}
+
+.site-main > article {
+	margin-bottom: 3.5em;
+}
+body:not(.search-results) article:not(.type-page) .entry-footer .edit-link {
+	display: none;
+}
+/*.sidebar {
+	background: url(../../uploads/2017/07/sun-small.jpg);
+	padding: 10px;
+}*/
+.site-footer {
+	background-color: #233140;
+}
