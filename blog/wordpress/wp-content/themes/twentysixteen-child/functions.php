@@ -1,7 +1,7 @@
 <?php
 function my_theme_enqueue_styles() {
 
-    $parent_style = 'twentysixteen-style';
+    $parent_style = 'twentysixteen-style'; // Find this out from looking in functions.php for wp_enqueue_style() call
 
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'child-style',
